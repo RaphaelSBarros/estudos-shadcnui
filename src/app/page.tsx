@@ -1,9 +1,12 @@
-import { Button } from "@/components/ui/button"
+import { ErrorMessage } from "@/components/ErrorMessage"
 
 const Page = () => {
     return (
-        <div className="min-h-screen flex justify-center items-center">
-            <Button>Clique aqui</Button>
+        <div className="min-h-screen flex flex-col justify-center items-center">
+            <div className="w-full max-w-2xl">
+                <ErrorMessage error="Mensagem de erro personalizada" />
+            </div>
+            
         </div>
     )
 }
