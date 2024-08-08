@@ -1,0 +1,1 @@
+export type Role = 'viewer' | 'developer' | 'billing' | 'owner' | 'member';
